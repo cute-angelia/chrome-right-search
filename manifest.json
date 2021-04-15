@@ -1,0 +1,41 @@
+{
+   "author": "ender",
+   "background": {
+      "scripts": [
+         "js/i18n.js",
+         "js/bg_lib.js",
+         "js/background.js"
+      ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/19.png",
+         "38": "img/38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://apis.google.com https://ajax.googleapis.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoqXT8SRe4Tct1UIzz7TsL0DtjN08u39pBuRxQnp9zTs6R2DObuehGD4DVzY2J1W9MJLeyqfjC0Sre67pijukw8s7s2vzmdjcD+rliMqtfluw82M8n3LDeDzCFb/NRISPjh1oe51xL4XUKWwoZ/rmmctGzU3BYPUBNWpm6/skLgwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "offline_enabled": false,
+   "options_page": "options.html",
+   "permissions": [
+      "contextMenus",
+      "storage",
+      "*://*/*",
+      "clipboardRead",
+      "tabs"
+   ],
+   "short_name": "CM",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.315"
+}
